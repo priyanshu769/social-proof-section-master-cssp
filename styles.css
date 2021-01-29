@@ -1,0 +1,109 @@
+@import url('https://fonts.google.com/specimen/Spartan')
+* {
+    /* font-family: 'Spartan', sans-serif; */
+    font-family: 'Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Spartan', sans-serif;
+}
+:root {
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+.hero-n-ratings {
+    width: 100%;
+    margin: auto;
+    padding-top: 5rem;
+}
+.hero {
+    width: 20%;
+    margin-left: 15rem;
+    float: left;
+    padding: 20px;
+}
+.heading {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+}
+.hero-desc {
+    color: var(--dark-grayish-magenta);
+    font-weight: 400;
+}
+.ratings {
+    float: left;
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+}
+.rating {
+    color: var(--very-dark-magenta);
+    width: 95%;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: var(--light-grayish-magenta);
+}
+.all-reviews {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.review {
+    background-color: var(--very-dark-magenta);
+    border-radius: 10px;
+    width: 20%;
+    padding: 1rem;
+    margin: 1rem 1.3rem;
+    display: inline-block;
+}
+.buyers-dp {
+    width: 50px;
+    border-radius: 100%;
+    display: inline;
+    float: left;
+    margin: 0rem 1rem 0rem 0rem;
+    margin-left: 1.5rem;
+}
+.buyer {
+    /* float: left; */
+    display: inline;
+    text-align: left;
+}
+.buyer-name {
+    color: var(--white);
+    line-height: 0;
+}
+.buyer-validation {
+    line-height: 0;
+    color: var(--dark-grayish-magenta);
+}
+.buyer-review {
+    text-align: left;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: var(--white);
+}
+.bg-img-top, .bg-img-btm {
+    z-index: -10;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+.bg-img-btm {
+    top: 4rem;
+}
+.r2 {
+    margin-left: 2rem;
+}
+.r3 {
+    margin-left: 4rem;
+}
+.re2 {
+    /* margin-top: 2rem; */
+}
+.re3 {
+    /* margin-top: 4rem; */
+}
