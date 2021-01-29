@@ -29,6 +29,7 @@ body {
 .heading {
     color: var(--very-dark-magenta);
     font-weight: 700;
+    font-size: 38px;
 }
 .hero-desc {
     color: var(--dark-grayish-magenta);
@@ -36,6 +37,7 @@ body {
 }
 .ratings {
     float: left;
+    margin-top: 2.5rem;
     margin-left: 15rem;
     margin-bottom: 5rem;
 }
